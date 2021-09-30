@@ -1,7 +1,7 @@
 import io.kotest.core.spec.style.FreeSpec
 import io.kotest.matchers.shouldBe
 
-class MainTest : FreeSpec({
+class ExampleTest : FreeSpec({
 
     "adding 12 and 17 should return 29" {
         add(12, 17) shouldBe 29
